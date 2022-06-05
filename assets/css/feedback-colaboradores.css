@@ -1,0 +1,42 @@
+.feedback-colaboradores.container {
+    padding: 3em 0;
+    margin-bottom: 3em;
+    background-color: var(--bg-feedback);
+    text-align: center;
+    
+}
+
+.feedback {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.feedback__descricao {
+    color: var(--cor-titulo);
+    font-size: 2em;
+}
+
+.feedback__avatar {
+    margin-top: 2em;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.feedback__nome {
+    color: var(--cor-titulo);
+    margin: 1em 0 .4em;
+}
+
+.feedback__profissao {
+    color: var(--cor-padrao);
+}
+
+
+@media screen and (max-width: 768px) {
+    .feedback__descricao {
+        font-size: 1.2em;
+    }
+}
+

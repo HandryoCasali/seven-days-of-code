@@ -1,0 +1,64 @@
+.footer {
+    padding: 5em 0;
+    background-color: var(--bg-footer);
+    text-align: center;
+}
+
+.footer__titulo {
+    padding: .5em 0;
+    color: var(--cor-titulo);
+    font-size: 2em;
+}
+
+.footer__descricao {
+    font-size: 1.2em;
+    color: var(--cor-padrao);
+}
+
+.footer__formulario {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__campo-email {
+    width: 300px;
+    padding: .5em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid var(--cor-borda-input);
+    outline: 0;
+}
+
+.footer__btn-submit {
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    transition: all .1s ease;
+}
+
+.footer__btn-submit:hover:active {
+    background-color: var(--cor-botao-ativo);
+    transform: scale(.9);
+}
+
+.footer__direitos {
+    font-size: .8em;
+    color: var(--cor-padrao);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__titulo {
+        font-size: 1.2em;
+    }
+
+    .footer__formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__btn-submit {
+        margin: 0;
+        width: 325px;
+    }
+}

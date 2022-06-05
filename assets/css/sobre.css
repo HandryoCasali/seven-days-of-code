@@ -1,0 +1,21 @@
+.sobre.container {
+    padding: 5em 0 3em 0;
+    text-align: center;
+}
+
+.sobre__titulo {
+    padding: .8em 0;
+    
+    color: var(--cor-titulo);
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.sobre__descricao {
+    width: 60%;
+    margin: 0 auto;
+
+    color: var(--cor-padrao);
+    font-size: 1em;
+    line-height: 1.5;
+}

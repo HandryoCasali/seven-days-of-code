@@ -1,0 +1,72 @@
+:root {
+    --cor-padrao: #667085;
+    --cor-padrao-destaque: #3A404E;
+    --cor-logo: #3A404E;
+    --cor-titulo: #101828;
+    --cor-vermelho: #8E2424;
+    --cor-vermelho-destaque: #721717;
+    --cor-botao-ativo: #400c0c;
+    --cinza-claro: #98A2B3;
+    --cor-borda: #EAECF0;
+    --cor-borda-input: #D0D5DD;
+    --bg-etiqueta: rgba(142, 36, 36, 0.05);
+    --bg-feedback: #C3191908;
+    --bg-footer: #F9FAFB;
+
+    ---font: 'Inter', 
+    sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(---font);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.btn {
+    padding: 1em;
+    color: #fff;
+}
+
+.btn.btn-cadastrar {
+    padding: .8em 1.5em;
+    background-color: var(--cor-vermelho);
+    color: #fff;
+
+    border-radius: 10px;
+}
+
+.btn.btn-cadastrar:hover {
+    background-color: var(--cor-vermelho-destaque);
+    color: #fff;
+}
+
+
+.etiqueta {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+}
+
+.etiqueta-destaque {
+    border-radius: 20px;
+    background-color: var(--bg-etiqueta);
+    padding: 10px;
+
+    display: inline-block;
+}
